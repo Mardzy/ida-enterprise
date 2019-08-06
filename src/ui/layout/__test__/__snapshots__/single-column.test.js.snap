@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The single column component renders its content 1`] = `
+<SingleColumn
+  content={[Function]}
+>
+  <Grid
+    columns={1}
+    stackable={true}
+  >
+    <div
+      className="ui stackable one column grid"
+    >
+      <GridColumn>
+        <div
+          className="column"
+        >
+          <div
+            className="content"
+          >
+            Content
+          </div>
+        </div>
+      </GridColumn>
+    </div>
+  </Grid>
+</SingleColumn>
+`;

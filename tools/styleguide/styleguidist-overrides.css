@@ -1,0 +1,12 @@
+body {
+  line-height: normal;
+}
+
+.snapguidist__button {
+  font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+  line-height: normal;
+}
+
+p[class*="rsg--para"] {
+  margin-bottom: 16px;
+}

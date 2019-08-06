@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The user menu container displays the user's full name after it has been loaded 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(lifecycle(UserMenu))>
+    <lifecycle(UserMenu)
+      fetchUser={[Function]}
+      isLoading={false}
+      onLogoutClicked={[Function]}
+      user={
+        Immutable.Map {
+          "username": "sandor@connecterra.io",
+          "givenName": "Sandor",
+          "surName": "Kocsis",
+        }
+      }
+    >
+      <UserMenu
+        fetchUser={[Function]}
+        isLoading={false}
+        onLogoutClicked={[Function]}
+        user={
+          Immutable.Map {
+            "username": "sandor@connecterra.io",
+            "givenName": "Sandor",
+            "surName": "Kocsis",
+          }
+        }
+      >
+        <MenuItem>
+          <div
+            className="item"
+            onClick={[Function]}
+          >
+            <MenuHeader>
+              <div
+                className="header"
+              >
+                Sandor Kocsis
+                 
+              </div>
+            </MenuHeader>
+            <MenuMenu>
+              <div
+                className="menu"
+              >
+                <MenuItem
+                  onClick={[Function]}
+                >
+                  <a
+                    className="item"
+                    onClick={[Function]}
+                  >
+                    Log out
+                  </a>
+                </MenuItem>
+              </div>
+            </MenuMenu>
+          </div>
+        </MenuItem>
+      </UserMenu>
+    </lifecycle(UserMenu)>
+  </Connect(lifecycle(UserMenu))>
+</Provider>
+`;

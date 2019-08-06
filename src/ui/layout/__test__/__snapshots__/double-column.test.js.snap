@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The double column component renders both sections 1`] = `
+<DoubleColumn
+  left={[Function]}
+  right={[Function]}
+>
+  <Grid
+    columns={2}
+    stackable={true}
+  >
+    <div
+      className="ui stackable two column grid"
+    >
+      <GridColumn
+        computer={8}
+        tablet={16}
+      >
+        <div
+          className="eight wide computer sixteen wide tablet column"
+        >
+          <div
+            className="left"
+          >
+            Left
+          </div>
+        </div>
+      </GridColumn>
+      <GridColumn
+        computer={8}
+        tablet={16}
+      >
+        <div
+          className="eight wide computer sixteen wide tablet column"
+        >
+          <div
+            className="right"
+          >
+            Right
+          </div>
+        </div>
+      </GridColumn>
+    </div>
+  </Grid>
+</DoubleColumn>
+`;

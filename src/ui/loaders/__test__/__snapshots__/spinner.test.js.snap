@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The spinner with overlay renders a spinner 1`] = `
+<SpinnerWithOverlay>
+  <Dimmer
+    active={true}
+    inverted={true}
+  >
+    <DimmerInner
+      active={true}
+      inverted={true}
+    >
+      <Ref
+        innerRef={
+          Object {
+            "current": <div
+              class="ui active transition visible inverted dimmer"
+              style="display: flex;"
+            >
+              <div
+                class="content"
+              >
+                <div
+                  class="ui inverted loader"
+                />
+              </div>
+            </div>,
+          }
+        }
+      >
+        <RefFindNode
+          innerRef={
+            Object {
+              "current": <div
+                class="ui active transition visible inverted dimmer"
+                style="display: flex;"
+              >
+                <div
+                  class="content"
+                >
+                  <div
+                    class="ui inverted loader"
+                  />
+                </div>
+              </div>,
+            }
+          }
+        >
+          <div
+            className="ui active transition visible inverted dimmer"
+            onClick={[Function]}
+          >
+            <div
+              className="content"
+            >
+              <Loader
+                inverted={true}
+              >
+                <div
+                  className="ui inverted loader"
+                />
+              </Loader>
+            </div>
+          </div>
+        </RefFindNode>
+      </Ref>
+    </DimmerInner>
+  </Dimmer>
+</SpinnerWithOverlay>
+`;
+
+exports[`The spinner with overlay renders a spinner with text 1`] = `
+<SpinnerWithOverlay>
+  <Dimmer
+    active={true}
+    inverted={true}
+  >
+    <DimmerInner
+      active={true}
+      inverted={true}
+    >
+      <Ref
+        innerRef={
+          Object {
+            "current": <div
+              class="ui active transition visible inverted dimmer"
+              style="display: flex;"
+            >
+              <div
+                class="content"
+              >
+                <div
+                  class="ui inverted text loader"
+                >
+                  Loading content
+                </div>
+              </div>
+            </div>,
+          }
+        }
+      >
+        <RefFindNode
+          innerRef={
+            Object {
+              "current": <div
+                class="ui active transition visible inverted dimmer"
+                style="display: flex;"
+              >
+                <div
+                  class="content"
+                >
+                  <div
+                    class="ui inverted text loader"
+                  >
+                    Loading content
+                  </div>
+                </div>
+              </div>,
+            }
+          }
+        >
+          <div
+            className="ui active transition visible inverted dimmer"
+            onClick={[Function]}
+          >
+            <div
+              className="content"
+            >
+              <Loader
+                inverted={true}
+              >
+                <div
+                  className="ui inverted text loader"
+                >
+                  Loading content
+                </div>
+              </Loader>
+            </div>
+          </div>
+        </RefFindNode>
+      </Ref>
+    </DimmerInner>
+  </Dimmer>
+</SpinnerWithOverlay>
+`;

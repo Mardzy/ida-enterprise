@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The chart group dashboard renders without passing any props 1`] = `
+<Dashboard
+  fetchData={[Function]}
+  renderChart={[Function]}
+  sections={
+    Immutable.Map {
+      "main": Immutable.List [],
+      "left": Immutable.List [],
+      "right": Immutable.List [],
+    }
+  }
+>
+  <MainWithSecondary
+    main={[Function]}
+    secondary={[Function]}
+  >
+    <SingleColumn
+      content={[Function]}
+    >
+      <Grid
+        columns={1}
+        stackable={true}
+      >
+        <div
+          className="ui stackable one column grid"
+        >
+          <GridColumn>
+            <div
+              className="column"
+            >
+              <Component />
+            </div>
+          </GridColumn>
+        </div>
+      </Grid>
+    </SingleColumn>
+    <DoubleColumn
+      left={[Function]}
+      right={[Function]}
+    >
+      <Grid
+        columns={2}
+        stackable={true}
+      >
+        <div
+          className="ui stackable two column grid"
+        >
+          <GridColumn
+            computer={8}
+            tablet={16}
+          >
+            <div
+              className="eight wide computer sixteen wide tablet column"
+            >
+              <Component />
+            </div>
+          </GridColumn>
+          <GridColumn
+            computer={8}
+            tablet={16}
+          >
+            <div
+              className="eight wide computer sixteen wide tablet column"
+            >
+              <Component />
+            </div>
+          </GridColumn>
+        </div>
+      </Grid>
+    </DoubleColumn>
+  </MainWithSecondary>
+</Dashboard>
+`;
+
+exports[`The chart group dashboard uses a custom chart renderer function 1`] = `
+<Dashboard
+  fetchData={[Function]}
+  renderChart={[Function]}
+  sections={
+    Immutable.Map {
+      "main": Immutable.List [
+        Immutable.Map {
+          "config": "abcd",
+        },
+      ],
+      "left": Immutable.List [
+        Immutable.Map {
+          "config": "asdf",
+        },
+      ],
+      "right": Immutable.List [
+        Immutable.Map {
+          "config": "sdfg",
+        },
+      ],
+    }
+  }
+>
+  <MainWithSecondary
+    main={[Function]}
+    secondary={[Function]}
+  >
+    <SingleColumn
+      content={[Function]}
+    >
+      <Grid
+        columns={1}
+        stackable={true}
+      >
+        <div
+          className="ui stackable one column grid"
+        >
+          <GridColumn>
+            <div
+              className="column"
+            >
+              abcd
+            </div>
+          </GridColumn>
+        </div>
+      </Grid>
+    </SingleColumn>
+    <DoubleColumn
+      left={[Function]}
+      right={[Function]}
+    >
+      <Grid
+        columns={2}
+        stackable={true}
+      >
+        <div
+          className="ui stackable two column grid"
+        >
+          <GridColumn
+            computer={8}
+            tablet={16}
+          >
+            <div
+              className="eight wide computer sixteen wide tablet column"
+            >
+              asdf
+            </div>
+          </GridColumn>
+          <GridColumn
+            computer={8}
+            tablet={16}
+          >
+            <div
+              className="eight wide computer sixteen wide tablet column"
+            >
+              sdfg
+            </div>
+          </GridColumn>
+        </div>
+      </Grid>
+    </DoubleColumn>
+  </MainWithSecondary>
+</Dashboard>
+`;

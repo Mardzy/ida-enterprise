@@ -1,0 +1,1 @@
+export { default as SimpleDashboard } from "./simple-dashboard-container";

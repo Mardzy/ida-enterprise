@@ -1,0 +1,661 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The legend item displays the value with the label 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+}
+
+.c0 {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  display: block;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+}
+
+.c3 {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  display: block;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c2 {
+  color: #3992CA;
+}
+
+<LegendItem
+  basis="100%"
+  color="#3992CA"
+  value="$17,436"
+>
+  <item
+    basis="100%"
+  >
+    <StyledComponent
+      basis="100%"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "item-pyuzpd-0",
+            "isStatic": false,
+            "lastClassName": "c3",
+            "rules": Array [
+              "order:0;flex-basis:auto;flex-grow:0;flex-shrink:1;display:block;",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "item",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "item-pyuzpd-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="c0"
+      >
+        <flex
+          alignCenter={true}
+          full={true}
+        >
+          <StyledComponent
+            alignCenter={true}
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "flex-x9ump0-0",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    "display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:flex-start;align-content:stretch;",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                  ],
+                },
+                "displayName": "flex",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "flex-x9ump0-0",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            full={true}
+          >
+            <div
+              className="c1"
+            >
+              <Styled(Component)
+                color="#3992CA"
+                name="square"
+              >
+                <StyledComponent
+                  color="#3992CA"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bdVaJa",
+                        "isStatic": false,
+                        "lastClassName": "c2",
+                        "rules": Array [
+                          "
+  color: ",
+                          [Function],
+                          ";
+",
+                        ],
+                      },
+                      "displayName": "Styled(Component)",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bdVaJa",
+                      "target": [Function],
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  name="square"
+                >
+                  <Component
+                    className="c2"
+                    color="#3992CA"
+                    name="square"
+                  >
+                    <Icon
+                      as="i"
+                      className="c2"
+                      name="square"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="square icon c2"
+                        onClick={[Function]}
+                      />
+                    </Icon>
+                  </Component>
+                </StyledComponent>
+              </Styled(Component)>
+              <item
+                grow={1}
+              >
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "item-pyuzpd-0",
+                        "isStatic": false,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "order:0;flex-basis:auto;flex-grow:0;flex-shrink:1;display:block;",
+                          [Function],
+                          ";",
+                          [Function],
+                          ";",
+                          [Function],
+                          ";",
+                          [Function],
+                          ";",
+                          [Function],
+                          ";",
+                          [Function],
+                          ";",
+                          [Function],
+                          ";",
+                          [Function],
+                          ";",
+                        ],
+                      },
+                      "displayName": "item",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "item-pyuzpd-0",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  grow={1}
+                >
+                  <div
+                    className="c3"
+                  >
+                    Label with value
+                  </div>
+                </StyledComponent>
+              </item>
+              <span>
+                $17,436
+              </span>
+            </div>
+          </StyledComponent>
+        </flex>
+      </div>
+    </StyledComponent>
+  </item>
+</LegendItem>
+`;
+
+exports[`The legend item renders without passed value 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+}
+
+.c0 {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  display: block;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+}
+
+.c3 {
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
+  -webkit-flex-basis: auto;
+  -ms-flex-preferred-size: auto;
+  flex-basis: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+  -ms-flex-positive: 0;
+  flex-grow: 0;
+  -webkit-flex-shrink: 1;
+  -ms-flex-negative: 1;
+  flex-shrink: 1;
+  display: block;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.c2 {
+  color: #3992CA;
+}
+
+<LegendItem
+  basis="100%"
+  color="#3992CA"
+>
+  <item
+    basis="100%"
+  >
+    <StyledComponent
+      basis="100%"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "item-pyuzpd-0",
+            "isStatic": false,
+            "lastClassName": "c3",
+            "rules": Array [
+              "order:0;flex-basis:auto;flex-grow:0;flex-shrink:1;display:block;",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "item",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "item-pyuzpd-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="c0"
+      >
+        <flex
+          alignCenter={true}
+          full={true}
+        >
+          <StyledComponent
+            alignCenter={true}
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "flex-x9ump0-0",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    "display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:flex-start;align-content:stretch;",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                    [Function],
+                    ";",
+                  ],
+                },
+                "displayName": "flex",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "flex-x9ump0-0",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            full={true}
+          >
+            <div
+              className="c1"
+            >
+              <Styled(Component)
+                color="#3992CA"
+                name="square"
+              >
+                <StyledComponent
+                  color="#3992CA"
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "sc-bdVaJa",
+                        "isStatic": false,
+                        "lastClassName": "c2",
+                        "rules": Array [
+                          "
+  color: ",
+                          [Function],
+                          ";
+",
+                        ],
+                      },
+                      "displayName": "Styled(Component)",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "sc-bdVaJa",
+                      "target": [Function],
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  name="square"
+                >
+                  <Component
+                    className="c2"
+                    color="#3992CA"
+                    name="square"
+                  >
+                    <Icon
+                      as="i"
+                      className="c2"
+                      name="square"
+                    >
+                      <i
+                        aria-hidden="true"
+                        className="square icon c2"
+                        onClick={[Function]}
+                      />
+                    </Icon>
+                  </Component>
+                </StyledComponent>
+              </Styled(Component)>
+              <item
+                grow={1}
+              >
+                <StyledComponent
+                  forwardedComponent={
+                    Object {
+                      "$$typeof": Symbol(react.forward_ref),
+                      "attrs": Array [],
+                      "componentStyle": ComponentStyle {
+                        "componentId": "item-pyuzpd-0",
+                        "isStatic": false,
+                        "lastClassName": "c3",
+                        "rules": Array [
+                          "order:0;flex-basis:auto;flex-grow:0;flex-shrink:1;display:block;",
+                          [Function],
+                          ";",
+                          [Function],
+                          ";",
+                          [Function],
+                          ";",
+                          [Function],
+                          ";",
+                          [Function],
+                          ";",
+                          [Function],
+                          ";",
+                          [Function],
+                          ";",
+                          [Function],
+                          ";",
+                        ],
+                      },
+                      "displayName": "item",
+                      "foldedComponentIds": Array [],
+                      "render": [Function],
+                      "styledComponentId": "item-pyuzpd-0",
+                      "target": "div",
+                      "toString": [Function],
+                      "warnTooManyClasses": [Function],
+                      "withComponent": [Function],
+                    }
+                  }
+                  forwardedRef={null}
+                  grow={1}
+                >
+                  <div
+                    className="c3"
+                  >
+                    No value, just label
+                  </div>
+                </StyledComponent>
+              </item>
+            </div>
+          </StyledComponent>
+        </flex>
+      </div>
+    </StyledComponent>
+  </item>
+</LegendItem>
+`;

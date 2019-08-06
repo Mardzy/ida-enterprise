@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The graph wrapper renders an empty shell 1`] = `
+.c0 {
+  min-height: 7.142857142857143rem;
+  min-width: auto;
+}
+
+<Graph
+  chartConfig={Immutable.Map {}}
+  chartId={null}
+  data={null}
+  graphComponent={[Function]}
+  loading={false}
+>
+  <Styled(Component)
+    attached={true}
+    loading={false}
+    minHeight={100}
+  >
+    <StyledComponent
+      attached={true}
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  min-height: ",
+              [Function],
+              ";
+  min-width: ",
+              [Function],
+              ";
+",
+            ],
+          },
+          "displayName": "Styled(Component)",
+          "foldedComponentIds": Array [],
+          "propTypes": Object {
+            "minHeight": [Function],
+            "minWidth": [Function],
+          },
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      loading={false}
+      minHeight={100}
+    >
+      <Component
+        attached={true}
+        className="c0"
+        loading={false}
+        minHeight={100}
+      >
+        <Segment
+          attached={true}
+          className="c0"
+          loading={false}
+        >
+          <div
+            className="ui attached segment c0"
+          >
+            <graphComponent
+              data={null}
+            />
+          </div>
+        </Segment>
+      </Component>
+    </StyledComponent>
+  </Styled(Component)>
+</Graph>
+`;

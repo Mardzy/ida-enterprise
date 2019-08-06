@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Container component sets bottom margin when the whitespaceAfter prop is passed 1`] = `
+.c0 {
+  margin-bottom: 2rem;
+}
+
+.c0:last-child {
+  margin-bottom: 0;
+}
+
+<Styled(Component)
+  whitespaceAfter={2}
+>
+  <StyledComponent
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "
+  margin-bottom: ",
+            [Function],
+            ";
+  
+  &:last-child {
+    margin-bottom: 0;
+  }
+",
+          ],
+        },
+        "displayName": "Styled(Component)",
+        "foldedComponentIds": Array [],
+        "propTypes": Object {
+          "whitespaceAfter": [Function],
+        },
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": [Function],
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+    whitespaceAfter={2}
+  >
+    <Component
+      className="c0"
+      whitespaceAfter={2}
+    >
+      <section
+        className="c0"
+      >
+        Lorem ipsum dolor
+      </section>
+    </Component>
+  </StyledComponent>
+</Styled(Component)>
+`;

@@ -1,0 +1,274 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The submenu with loader displays an inline loader 1`] = `
+<SubmenuWithLoader
+  header="Some header"
+  isLoading={true}
+  items={Immutable.List []}
+  renderItem={[Function]}
+>
+  <MenuItem>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <MenuHeader>
+        <div
+          className="header"
+        >
+          Some header
+           
+          <InlineDots
+            amount={3}
+          >
+            <styled.span
+              key="0"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bdVaJa",
+                      "isStatic": true,
+                      "lastClassName": "gQgMD",
+                      "rules": Array [
+                        "
+  animation: 1s ",
+                        Keyframes {
+                          "id": "sc-keyframes-cFFqjv",
+                          "inject": [Function],
+                          "name": "cFFqjv",
+                          "rules": Array [
+                            "@-webkit-keyframes cFFqjv{50%{color:transparent;}}",
+                            "@keyframes cFFqjv{50%{color:transparent;}}",
+                          ],
+                          "toString": [Function],
+                        },
+                        " infinite;
+  &:nth-child(1) {
+    animation-delay: 0ms;
+  }
+  &:nth-child(2) {
+    animation-delay: 250ms;
+  }
+  &:nth-child(3) {
+    animation-delay: 500ms;
+  }
+",
+                      ],
+                    },
+                    "displayName": "styled.span",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-bdVaJa",
+                    "target": "span",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <span
+                  className="sc-bdVaJa gQgMD"
+                >
+                  .
+                </span>
+              </StyledComponent>
+            </styled.span>
+            <styled.span
+              key="1"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bdVaJa",
+                      "isStatic": true,
+                      "lastClassName": "gQgMD",
+                      "rules": Array [
+                        "
+  animation: 1s ",
+                        Keyframes {
+                          "id": "sc-keyframes-cFFqjv",
+                          "inject": [Function],
+                          "name": "cFFqjv",
+                          "rules": Array [
+                            "@-webkit-keyframes cFFqjv{50%{color:transparent;}}",
+                            "@keyframes cFFqjv{50%{color:transparent;}}",
+                          ],
+                          "toString": [Function],
+                        },
+                        " infinite;
+  &:nth-child(1) {
+    animation-delay: 0ms;
+  }
+  &:nth-child(2) {
+    animation-delay: 250ms;
+  }
+  &:nth-child(3) {
+    animation-delay: 500ms;
+  }
+",
+                      ],
+                    },
+                    "displayName": "styled.span",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-bdVaJa",
+                    "target": "span",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <span
+                  className="sc-bdVaJa gQgMD"
+                >
+                  .
+                </span>
+              </StyledComponent>
+            </styled.span>
+            <styled.span
+              key="2"
+            >
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "sc-bdVaJa",
+                      "isStatic": true,
+                      "lastClassName": "gQgMD",
+                      "rules": Array [
+                        "
+  animation: 1s ",
+                        Keyframes {
+                          "id": "sc-keyframes-cFFqjv",
+                          "inject": [Function],
+                          "name": "cFFqjv",
+                          "rules": Array [
+                            "@-webkit-keyframes cFFqjv{50%{color:transparent;}}",
+                            "@keyframes cFFqjv{50%{color:transparent;}}",
+                          ],
+                          "toString": [Function],
+                        },
+                        " infinite;
+  &:nth-child(1) {
+    animation-delay: 0ms;
+  }
+  &:nth-child(2) {
+    animation-delay: 250ms;
+  }
+  &:nth-child(3) {
+    animation-delay: 500ms;
+  }
+",
+                      ],
+                    },
+                    "displayName": "styled.span",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "sc-bdVaJa",
+                    "target": "span",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <span
+                  className="sc-bdVaJa gQgMD"
+                >
+                  .
+                </span>
+              </StyledComponent>
+            </styled.span>
+          </InlineDots>
+        </div>
+      </MenuHeader>
+      <MenuMenu>
+        <div
+          className="menu"
+        >
+          <Component />
+        </div>
+      </MenuMenu>
+    </div>
+  </MenuItem>
+</SubmenuWithLoader>
+`;
+
+exports[`The submenu with loader renders a list of items 1`] = `
+<SubmenuWithLoader
+  header="Some header"
+  items={
+    Immutable.List [
+      1,
+      2,
+      3,
+    ]
+  }
+  renderItem={[Function]}
+>
+  <MenuItem>
+    <div
+      className="item"
+      onClick={[Function]}
+    >
+      <MenuHeader>
+        <div
+          className="header"
+        >
+          Some header
+           
+        </div>
+      </MenuHeader>
+      <MenuMenu>
+        <div
+          className="menu"
+        >
+          <MenuItem
+            key="1"
+          >
+            <div
+              className="item"
+              onClick={[Function]}
+            >
+              1
+            </div>
+          </MenuItem>
+          <MenuItem
+            key="2"
+          >
+            <div
+              className="item"
+              onClick={[Function]}
+            >
+              2
+            </div>
+          </MenuItem>
+          <MenuItem
+            key="3"
+          >
+            <div
+              className="item"
+              onClick={[Function]}
+            >
+              3
+            </div>
+          </MenuItem>
+        </div>
+      </MenuMenu>
+    </div>
+  </MenuItem>
+</SubmenuWithLoader>
+`;

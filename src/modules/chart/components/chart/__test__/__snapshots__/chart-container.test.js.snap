@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The chart wrapper Renders an empty shell 1`] = `
+.c0 {
+  margin-bottom: 2rem;
+}
+
+.c0:last-child {
+  margin-bottom: 0;
+}
+
+<Chart
+  config={Immutable.Map {}}
+  id={null}
+  renderGraph={[Function]}
+  title=""
+>
+  <Styled(Component)
+    className="chart"
+    whitespaceAfter={2}
+  >
+    <StyledComponent
+      className="chart"
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "sc-bdVaJa",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "
+  margin-bottom: ",
+              [Function],
+              ";
+  
+  &:last-child {
+    margin-bottom: 0;
+  }
+",
+            ],
+          },
+          "displayName": "Styled(Component)",
+          "foldedComponentIds": Array [],
+          "propTypes": Object {
+            "whitespaceAfter": [Function],
+          },
+          "render": [Function],
+          "styledComponentId": "sc-bdVaJa",
+          "target": [Function],
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      whitespaceAfter={2}
+    >
+      <Component
+        className="chart c0"
+        whitespaceAfter={2}
+      >
+        <section
+          className="chart c0"
+        >
+          <Header
+            as="h3"
+            attached="top"
+          >
+            <h3
+              className="ui top attached header"
+            />
+          </Header>
+        </section>
+      </Component>
+    </StyledComponent>
+  </Styled(Component)>
+</Chart>
+`;

@@ -1,0 +1,266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The KPI graph renders the data 1`] = `
+<KPIGraph
+  data={
+    Immutable.Map {
+      "labels": Immutable.Map {
+        "IpsumDolor": "Ipsum dolor",
+        "DiamSapien": "Diam sapien",
+      },
+      "columns": Immutable.List [
+        "IpsumDolor",
+        "DiamSapien",
+      ],
+      "farms": Immutable.List [
+        Immutable.Map {
+          "name": "Romme",
+          "kpi": Immutable.List [
+            Immutable.Map {
+              "id": "IpsumDolor",
+              "value": 123.3,
+            },
+            Immutable.Map {
+              "id": "DiamSapien",
+              "value": 49.2,
+            },
+          ],
+        },
+        Immutable.Map {
+          "name": "Rutten",
+          "kpi": Immutable.List [
+            Immutable.Map {
+              "id": "IpsumDolor",
+              "value": 148.7,
+            },
+            Immutable.Map {
+              "id": "DiamSapien",
+              "value": 23.8,
+            },
+          ],
+        },
+        Immutable.Map {
+          "name": "Tankink",
+          "kpi": Immutable.List [
+            Immutable.Map {
+              "id": "IpsumDolor",
+              "value": 125.1,
+            },
+            Immutable.Map {
+              "id": "DiamSapien",
+              "value": 18.3,
+            },
+          ],
+        },
+      ],
+    }
+  }
+>
+  <Table
+    as="table"
+    definition={true}
+    fixed={true}
+    selectable={true}
+    sortable={true}
+    striped={true}
+    unstackable={true}
+  >
+    <table
+      className="ui definition fixed selectable sortable striped unstackable table"
+    >
+      <TableHeader
+        as="thead"
+      >
+        <thead
+          className=""
+        >
+          <TableRow
+            as="tr"
+            cellAs="td"
+          >
+            <tr
+              className=""
+            >
+              <TableHeaderCell
+                as="th"
+              >
+                <TableCell
+                  as="th"
+                  className=""
+                >
+                  <th
+                    className=""
+                  />
+                </TableCell>
+              </TableHeaderCell>
+              <TableHeaderCell
+                as="th"
+                key="IpsumDolor"
+                onClick={[Function]}
+                sorted={null}
+              >
+                <TableCell
+                  as="th"
+                  className=""
+                  onClick={[Function]}
+                >
+                  <th
+                    className=""
+                    onClick={[Function]}
+                  >
+                    Ipsum dolor
+                  </th>
+                </TableCell>
+              </TableHeaderCell>
+              <TableHeaderCell
+                as="th"
+                key="DiamSapien"
+                onClick={[Function]}
+                sorted={null}
+              >
+                <TableCell
+                  as="th"
+                  className=""
+                  onClick={[Function]}
+                >
+                  <th
+                    className=""
+                    onClick={[Function]}
+                  >
+                    Diam sapien
+                  </th>
+                </TableCell>
+              </TableHeaderCell>
+            </tr>
+          </TableRow>
+        </thead>
+      </TableHeader>
+      <TableBody
+        as="tbody"
+      >
+        <tbody
+          className=""
+        >
+          <TableRow
+            as="tr"
+            cellAs="td"
+            key="Romme"
+          >
+            <tr
+              className=""
+            >
+              <TableCell
+                as="td"
+              >
+                <td
+                  className=""
+                >
+                  Romme
+                </td>
+              </TableCell>
+              <TableCell
+                as="td"
+                key="IpsumDolor"
+              >
+                <td
+                  className=""
+                >
+                  123.3
+                </td>
+              </TableCell>
+              <TableCell
+                as="td"
+                key="DiamSapien"
+              >
+                <td
+                  className=""
+                >
+                  49.2
+                </td>
+              </TableCell>
+            </tr>
+          </TableRow>
+          <TableRow
+            as="tr"
+            cellAs="td"
+            key="Rutten"
+          >
+            <tr
+              className=""
+            >
+              <TableCell
+                as="td"
+              >
+                <td
+                  className=""
+                >
+                  Rutten
+                </td>
+              </TableCell>
+              <TableCell
+                as="td"
+                key="IpsumDolor"
+              >
+                <td
+                  className=""
+                >
+                  148.7
+                </td>
+              </TableCell>
+              <TableCell
+                as="td"
+                key="DiamSapien"
+              >
+                <td
+                  className=""
+                >
+                  23.8
+                </td>
+              </TableCell>
+            </tr>
+          </TableRow>
+          <TableRow
+            as="tr"
+            cellAs="td"
+            key="Tankink"
+          >
+            <tr
+              className=""
+            >
+              <TableCell
+                as="td"
+              >
+                <td
+                  className=""
+                >
+                  Tankink
+                </td>
+              </TableCell>
+              <TableCell
+                as="td"
+                key="IpsumDolor"
+              >
+                <td
+                  className=""
+                >
+                  125.1
+                </td>
+              </TableCell>
+              <TableCell
+                as="td"
+                key="DiamSapien"
+              >
+                <td
+                  className=""
+                >
+                  18.3
+                </td>
+              </TableCell>
+            </tr>
+          </TableRow>
+        </tbody>
+      </TableBody>
+    </table>
+  </Table>
+</KPIGraph>
+`;

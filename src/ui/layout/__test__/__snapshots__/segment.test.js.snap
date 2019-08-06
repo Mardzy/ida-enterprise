@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Segment component sets min-height and min-width with props 1`] = `
+.c0 {
+  min-height: 21.428571428571427rem;
+  min-width: 14.285714285714286rem;
+}
+
+<Styled(Component)
+  minHeight={300}
+  minWidth={200}
+>
+  <StyledComponent
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "
+  min-height: ",
+            [Function],
+            ";
+  min-width: ",
+            [Function],
+            ";
+",
+          ],
+        },
+        "displayName": "Styled(Component)",
+        "foldedComponentIds": Array [],
+        "propTypes": Object {
+          "minHeight": [Function],
+          "minWidth": [Function],
+        },
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": [Function],
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+    minHeight={300}
+    minWidth={200}
+  >
+    <Component
+      className="c0"
+      minHeight={300}
+      minWidth={200}
+    >
+      <Segment
+        className="c0"
+      >
+        <div
+          className="ui segment c0"
+        >
+          Lorem ipsum dolor
+        </div>
+      </Segment>
+    </Component>
+  </StyledComponent>
+</Styled(Component)>
+`;
+
+exports[`The Segment component uses 'auto' as min-height and min-width if no props are passed 1`] = `
+.c0 {
+  min-height: auto;
+  min-width: auto;
+}
+
+<Styled(Component)>
+  <StyledComponent
+    forwardedComponent={
+      Object {
+        "$$typeof": Symbol(react.forward_ref),
+        "attrs": Array [],
+        "componentStyle": ComponentStyle {
+          "componentId": "sc-bdVaJa",
+          "isStatic": false,
+          "lastClassName": "c0",
+          "rules": Array [
+            "
+  min-height: ",
+            [Function],
+            ";
+  min-width: ",
+            [Function],
+            ";
+",
+          ],
+        },
+        "displayName": "Styled(Component)",
+        "foldedComponentIds": Array [],
+        "propTypes": Object {
+          "minHeight": [Function],
+          "minWidth": [Function],
+        },
+        "render": [Function],
+        "styledComponentId": "sc-bdVaJa",
+        "target": [Function],
+        "toString": [Function],
+        "warnTooManyClasses": [Function],
+        "withComponent": [Function],
+      }
+    }
+    forwardedRef={null}
+  >
+    <Component
+      className="c0"
+    >
+      <Segment
+        className="c0"
+      >
+        <div
+          className="ui segment c0"
+        >
+          Lorem ipsum dolor
+        </div>
+      </Segment>
+    </Component>
+  </StyledComponent>
+</Styled(Component)>
+`;

@@ -1,0 +1,269 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The chart group dashboard container renders a spinner while loading 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(lifecycle(branch(Sink)))>
+    <lifecycle(branch(Sink))
+      fetchData={[Function]}
+      isLoading={true}
+    >
+      <branch(Sink)
+        fetchData={[Function]}
+        isLoading={true}
+      >
+        <renderComponent(SpinnerWithText)
+          fetchData={[Function]}
+          isLoading={true}
+        >
+          <SpinnerWithText
+            fetchData={[Function]}
+            isLoading={true}
+          >
+            <SpinnerWithOverlay>
+              <Dimmer
+                active={true}
+                inverted={true}
+              >
+                <DimmerInner
+                  active={true}
+                  inverted={true}
+                >
+                  <Ref
+                    innerRef={
+                      Object {
+                        "current": <div
+                          class="ui active transition visible inverted dimmer"
+                          style="display: flex;"
+                        >
+                          <div
+                            class="content"
+                          >
+                            <div
+                              class="ui inverted text loader"
+                            >
+                              Loading charts
+                            </div>
+                          </div>
+                        </div>,
+                      }
+                    }
+                  >
+                    <RefFindNode
+                      innerRef={
+                        Object {
+                          "current": <div
+                            class="ui active transition visible inverted dimmer"
+                            style="display: flex;"
+                          >
+                            <div
+                              class="content"
+                            >
+                              <div
+                                class="ui inverted text loader"
+                              >
+                                Loading charts
+                              </div>
+                            </div>
+                          </div>,
+                        }
+                      }
+                    >
+                      <div
+                        className="ui active transition visible inverted dimmer"
+                        onClick={[Function]}
+                      >
+                        <div
+                          className="content"
+                        >
+                          <Loader
+                            inverted={true}
+                          >
+                            <div
+                              className="ui inverted text loader"
+                            >
+                              Loading charts
+                            </div>
+                          </Loader>
+                        </div>
+                      </div>
+                    </RefFindNode>
+                  </Ref>
+                </DimmerInner>
+              </Dimmer>
+            </SpinnerWithOverlay>
+          </SpinnerWithText>
+        </renderComponent(SpinnerWithText)>
+      </branch(Sink)>
+    </lifecycle(branch(Sink))>
+  </Connect(lifecycle(branch(Sink)))>
+</Provider>
+`;
+
+exports[`The chart group dashboard container renders the section contents from the store 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(lifecycle(branch(Sink)))
+    pageId="dashboard"
+    renderChart={[Function]}
+  >
+    <lifecycle(branch(Sink))
+      fetchData={[Function]}
+      isLoading={false}
+      pageId="dashboard"
+      renderChart={[Function]}
+      sections={
+        Immutable.Map {
+          "main": Immutable.List [
+            1,
+          ],
+          "left": Immutable.List [
+            2,
+          ],
+          "right": Immutable.List [
+            3,
+          ],
+        }
+      }
+    >
+      <branch(Sink)
+        fetchData={[Function]}
+        isLoading={false}
+        pageId="dashboard"
+        renderChart={[Function]}
+        sections={
+          Immutable.Map {
+            "main": Immutable.List [
+              1,
+            ],
+            "left": Immutable.List [
+              2,
+            ],
+            "right": Immutable.List [
+              3,
+            ],
+          }
+        }
+      >
+        <renderComponent(Dashboard)
+          fetchData={[Function]}
+          isLoading={false}
+          pageId="dashboard"
+          renderChart={[Function]}
+          sections={
+            Immutable.Map {
+              "main": Immutable.List [
+                1,
+              ],
+              "left": Immutable.List [
+                2,
+              ],
+              "right": Immutable.List [
+                3,
+              ],
+            }
+          }
+        >
+          <Dashboard
+            fetchData={[Function]}
+            isLoading={false}
+            pageId="dashboard"
+            renderChart={[Function]}
+            sections={
+              Immutable.Map {
+                "main": Immutable.List [
+                  1,
+                ],
+                "left": Immutable.List [
+                  2,
+                ],
+                "right": Immutable.List [
+                  3,
+                ],
+              }
+            }
+          >
+            <MainWithSecondary
+              main={[Function]}
+              secondary={[Function]}
+            >
+              <SingleColumn
+                content={[Function]}
+              >
+                <Grid
+                  columns={1}
+                  stackable={true}
+                >
+                  <div
+                    className="ui stackable one column grid"
+                  >
+                    <GridColumn>
+                      <div
+                        className="column"
+                      >
+                        <Component />
+                      </div>
+                    </GridColumn>
+                  </div>
+                </Grid>
+              </SingleColumn>
+              <DoubleColumn
+                left={[Function]}
+                right={[Function]}
+              >
+                <Grid
+                  columns={2}
+                  stackable={true}
+                >
+                  <div
+                    className="ui stackable two column grid"
+                  >
+                    <GridColumn
+                      computer={8}
+                      tablet={16}
+                    >
+                      <div
+                        className="eight wide computer sixteen wide tablet column"
+                      >
+                        <Component />
+                      </div>
+                    </GridColumn>
+                    <GridColumn
+                      computer={8}
+                      tablet={16}
+                    >
+                      <div
+                        className="eight wide computer sixteen wide tablet column"
+                      >
+                        <Component />
+                      </div>
+                    </GridColumn>
+                  </div>
+                </Grid>
+              </DoubleColumn>
+            </MainWithSecondary>
+          </Dashboard>
+        </renderComponent(Dashboard)>
+      </branch(Sink)>
+    </lifecycle(branch(Sink))>
+  </Connect(lifecycle(branch(Sink)))>
+</Provider>
+`;

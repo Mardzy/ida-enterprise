@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The farms menu container render a list of farms 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(lifecycle(branch(Sink)))
+    renderItem={[Function]}
+  >
+    <lifecycle(branch(Sink))
+      fetch={[Function]}
+      isLoading={false}
+      items={
+        Immutable.List [
+          Immutable.Map {
+            "FarmID": 1,
+            "farmName": "Lorem Ipsum",
+          },
+          Immutable.Map {
+            "FarmID": 2,
+            "farmName": "Diam Dolor",
+          },
+        ]
+      }
+      renderItem={[Function]}
+    >
+      <branch(Sink)
+        fetch={[Function]}
+        isLoading={false}
+        items={
+          Immutable.List [
+            Immutable.Map {
+              "FarmID": 1,
+              "farmName": "Lorem Ipsum",
+            },
+            Immutable.Map {
+              "FarmID": 2,
+              "farmName": "Diam Dolor",
+            },
+          ]
+        }
+        renderItem={[Function]}
+      >
+        <renderComponent(SubmenuWithLoader)
+          fetch={[Function]}
+          isLoading={false}
+          items={
+            Immutable.List [
+              Immutable.Map {
+                "FarmID": 1,
+                "farmName": "Lorem Ipsum",
+              },
+              Immutable.Map {
+                "FarmID": 2,
+                "farmName": "Diam Dolor",
+              },
+            ]
+          }
+          renderItem={[Function]}
+        >
+          <SubmenuWithLoader
+            fetch={[Function]}
+            isLoading={false}
+            items={
+              Immutable.List [
+                Immutable.Map {
+                  "FarmID": 1,
+                  "farmName": "Lorem Ipsum",
+                },
+                Immutable.Map {
+                  "FarmID": 2,
+                  "farmName": "Diam Dolor",
+                },
+              ]
+            }
+            renderItem={[Function]}
+          >
+            <MenuItem>
+              <div
+                className="item"
+                onClick={[Function]}
+              >
+                <MenuMenu>
+                  <div
+                    className="menu"
+                  >
+                    <MenuItem
+                      key="1"
+                    >
+                      <div
+                        className="item"
+                        onClick={[Function]}
+                      >
+                        Lorem Ipsum
+                      </div>
+                    </MenuItem>
+                    <MenuItem
+                      key="2"
+                    >
+                      <div
+                        className="item"
+                        onClick={[Function]}
+                      >
+                        Diam Dolor
+                      </div>
+                    </MenuItem>
+                  </div>
+                </MenuMenu>
+              </div>
+            </MenuItem>
+          </SubmenuWithLoader>
+        </renderComponent(SubmenuWithLoader)>
+      </branch(Sink)>
+    </lifecycle(branch(Sink))>
+  </Connect(lifecycle(branch(Sink)))>
+</Provider>
+`;
+
+exports[`The farms menu container renders nothing while loading 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(lifecycle(branch(Sink)))>
+    <lifecycle(branch(Sink))
+      fetch={[Function]}
+      isLoading={true}
+      items={Immutable.List []}
+    >
+      <branch(Sink)
+        fetch={[Function]}
+        isLoading={true}
+        items={Immutable.List []}
+      >
+        <Nothing
+          fetch={[Function]}
+          isLoading={true}
+          items={Immutable.List []}
+        />
+      </branch(Sink)>
+    </lifecycle(branch(Sink))>
+  </Connect(lifecycle(branch(Sink)))>
+</Provider>
+`;

@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The simple dashboard container renders a spinner while loading 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(withProps(lifecycle(branch(Sink))))>
+    <withProps(lifecycle(branch(Sink)))
+      fetchData={[Function]}
+      isLoading={true}
+    >
+      <lifecycle(branch(Sink))
+        content={[Function]}
+        fetchData={[Function]}
+        isLoading={true}
+      >
+        <branch(Sink)
+          content={[Function]}
+          fetchData={[Function]}
+          isLoading={true}
+        >
+          <renderComponent(SpinnerWithText)
+            content={[Function]}
+            fetchData={[Function]}
+            isLoading={true}
+          >
+            <SpinnerWithText
+              content={[Function]}
+              fetchData={[Function]}
+              isLoading={true}
+            >
+              <SpinnerWithOverlay>
+                <Dimmer
+                  active={true}
+                  inverted={true}
+                >
+                  <DimmerInner
+                    active={true}
+                    inverted={true}
+                  >
+                    <Ref
+                      innerRef={
+                        Object {
+                          "current": <div
+                            class="ui active transition visible inverted dimmer"
+                            style="display: flex;"
+                          >
+                            <div
+                              class="content"
+                            >
+                              <div
+                                class="ui inverted text loader"
+                              >
+                                Loading charts
+                              </div>
+                            </div>
+                          </div>,
+                        }
+                      }
+                    >
+                      <RefFindNode
+                        innerRef={
+                          Object {
+                            "current": <div
+                              class="ui active transition visible inverted dimmer"
+                              style="display: flex;"
+                            >
+                              <div
+                                class="content"
+                              >
+                                <div
+                                  class="ui inverted text loader"
+                                >
+                                  Loading charts
+                                </div>
+                              </div>
+                            </div>,
+                          }
+                        }
+                      >
+                        <div
+                          className="ui active transition visible inverted dimmer"
+                          onClick={[Function]}
+                        >
+                          <div
+                            className="content"
+                          >
+                            <Loader
+                              inverted={true}
+                            >
+                              <div
+                                className="ui inverted text loader"
+                              >
+                                Loading charts
+                              </div>
+                            </Loader>
+                          </div>
+                        </div>
+                      </RefFindNode>
+                    </Ref>
+                  </DimmerInner>
+                </Dimmer>
+              </SpinnerWithOverlay>
+            </SpinnerWithText>
+          </renderComponent(SpinnerWithText)>
+        </branch(Sink)>
+      </lifecycle(branch(Sink))>
+    </withProps(lifecycle(branch(Sink)))>
+  </Connect(withProps(lifecycle(branch(Sink))))>
+</Provider>
+`;
+
+exports[`The simple dashboard container renders the section contents from the store 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <Connect(withProps(lifecycle(branch(Sink))))
+    pageId="dashboard"
+    renderChart={[Function]}
+  >
+    <withProps(lifecycle(branch(Sink)))
+      charts={
+        Immutable.List [
+          1,
+          2,
+        ]
+      }
+      fetchData={[Function]}
+      isLoading={false}
+      pageId="dashboard"
+      renderChart={[Function]}
+    >
+      <lifecycle(branch(Sink))
+        charts={
+          Immutable.List [
+            1,
+            2,
+          ]
+        }
+        content={[Function]}
+        fetchData={[Function]}
+        isLoading={false}
+        pageId="dashboard"
+        renderChart={[Function]}
+      >
+        <branch(Sink)
+          charts={
+            Immutable.List [
+              1,
+              2,
+            ]
+          }
+          content={[Function]}
+          fetchData={[Function]}
+          isLoading={false}
+          pageId="dashboard"
+          renderChart={[Function]}
+        >
+          <renderComponent(SingleColumnWithFilteredProps)
+            charts={
+              Immutable.List [
+                1,
+                2,
+              ]
+            }
+            content={[Function]}
+            fetchData={[Function]}
+            isLoading={false}
+            pageId="dashboard"
+            renderChart={[Function]}
+          >
+            <SingleColumnWithFilteredProps
+              charts={
+                Immutable.List [
+                  1,
+                  2,
+                ]
+              }
+              content={[Function]}
+              fetchData={[Function]}
+              isLoading={false}
+              pageId="dashboard"
+              renderChart={[Function]}
+            >
+              <SingleColumn
+                content={[Function]}
+              >
+                <Grid
+                  columns={1}
+                  stackable={true}
+                >
+                  <div
+                    className="ui stackable one column grid"
+                  >
+                    <GridColumn>
+                      <div
+                        className="column"
+                      >
+                        <Component />
+                      </div>
+                    </GridColumn>
+                  </div>
+                </Grid>
+              </SingleColumn>
+            </SingleColumnWithFilteredProps>
+          </renderComponent(SingleColumnWithFilteredProps)>
+        </branch(Sink)>
+      </lifecycle(branch(Sink))>
+    </withProps(lifecycle(branch(Sink)))>
+  </Connect(withProps(lifecycle(branch(Sink))))>
+</Provider>
+`;

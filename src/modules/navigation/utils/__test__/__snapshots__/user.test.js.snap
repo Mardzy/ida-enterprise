@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The user util function getDisplayName retrieves a display name from the user object 1`] = `"Sandor Kocsis"`;
+
+exports[`The user util function getUsername retrieves a username from the user object 1`] = `"sandor@connecterra.io"`;

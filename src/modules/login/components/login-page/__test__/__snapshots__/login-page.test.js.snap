@@ -1,0 +1,210 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The login page wrapper renders without login form 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c1 {
+  min-height: auto;
+  min-width: 21.428571428571427rem;
+}
+
+<LoginPage
+  renderForm={[Function]}
+>
+  <flex
+    center={true}
+    column={true}
+    full={true}
+  >
+    <StyledComponent
+      center={true}
+      column={true}
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "flex-x9ump0-0",
+            "isStatic": false,
+            "lastClassName": "c0",
+            "rules": Array [
+              "display:flex;flex-direction:row;flex-wrap:nowrap;justify-content:flex-start;align-content:stretch;",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+              [Function],
+              ";",
+            ],
+          },
+          "displayName": "flex",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "flex-x9ump0-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+      full={true}
+    >
+      <div
+        className="c0"
+      >
+        <Header
+          as="h3"
+        >
+          <h3
+            className="ui header"
+          >
+            Welcome to the Partner Dashboard
+          </h3>
+        </Header>
+        <p>
+          Please log in to continue
+        </p>
+        <Styled(Component)
+          minWidth={300}
+          padded={true}
+        >
+          <StyledComponent
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "sc-bdVaJa",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    "
+  min-height: ",
+                    [Function],
+                    ";
+  min-width: ",
+                    [Function],
+                    ";
+",
+                  ],
+                },
+                "displayName": "Styled(Component)",
+                "foldedComponentIds": Array [],
+                "propTypes": Object {
+                  "minHeight": [Function],
+                  "minWidth": [Function],
+                },
+                "render": [Function],
+                "styledComponentId": "sc-bdVaJa",
+                "target": [Function],
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            minWidth={300}
+            padded={true}
+          >
+            <Component
+              className="c1"
+              minWidth={300}
+              padded={true}
+            >
+              <Segment
+                className="c1"
+                padded={true}
+              >
+                <div
+                  className="ui padded segment c1"
+                />
+              </Segment>
+            </Component>
+          </StyledComponent>
+        </Styled(Component)>
+      </div>
+    </StyledComponent>
+  </flex>
+</LoginPage>
+`;

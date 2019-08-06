@@ -1,0 +1,251 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The farm selector menu displays a list of farms and the user menu 1`] = `
+<Provider
+  store={
+    Object {
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+      Symbol(observable): [Function],
+    }
+  }
+>
+  <StaticRouter
+    context={Object {}}
+    location="/"
+  >
+    <Router
+      history={
+        Object {
+          "action": "POP",
+          "block": [Function],
+          "createHref": [Function],
+          "go": [Function],
+          "goBack": [Function],
+          "goForward": [Function],
+          "listen": [Function],
+          "location": Object {
+            "hash": "",
+            "pathname": "/",
+            "search": "",
+            "state": undefined,
+          },
+          "push": [Function],
+          "replace": [Function],
+        }
+      }
+      staticContext={Object {}}
+    >
+      <MainNavigation>
+        <Menu
+          fluid={true}
+          vertical={true}
+        >
+          <div
+            className="ui fluid vertical menu"
+          >
+            <MenuItem>
+              <div
+                className="item"
+                onClick={[Function]}
+              >
+                <Link
+                  to="/"
+                >
+                  <a
+                    href="/"
+                    onClick={[Function]}
+                  >
+                    Dashboard
+                  </a>
+                </Link>
+              </div>
+            </MenuItem>
+            <Connect(lifecycle(branch(Sink)))
+              header="My farms"
+              renderItem={[Function]}
+            >
+              <lifecycle(branch(Sink))
+                fetch={[Function]}
+                header="My farms"
+                isLoading={false}
+                items={
+                  Immutable.List [
+                    Immutable.Map {
+                      "FarmID": 1,
+                      "farmName": "Sandor's Farm",
+                    },
+                    Immutable.Map {
+                      "FarmID": 2,
+                      "farmName": "Lorem ipsum dolor",
+                    },
+                  ]
+                }
+                renderItem={[Function]}
+              >
+                <branch(Sink)
+                  fetch={[Function]}
+                  header="My farms"
+                  isLoading={false}
+                  items={
+                    Immutable.List [
+                      Immutable.Map {
+                        "FarmID": 1,
+                        "farmName": "Sandor's Farm",
+                      },
+                      Immutable.Map {
+                        "FarmID": 2,
+                        "farmName": "Lorem ipsum dolor",
+                      },
+                    ]
+                  }
+                  renderItem={[Function]}
+                >
+                  <renderComponent(SubmenuWithLoader)
+                    fetch={[Function]}
+                    header="My farms"
+                    isLoading={false}
+                    items={
+                      Immutable.List [
+                        Immutable.Map {
+                          "FarmID": 1,
+                          "farmName": "Sandor's Farm",
+                        },
+                        Immutable.Map {
+                          "FarmID": 2,
+                          "farmName": "Lorem ipsum dolor",
+                        },
+                      ]
+                    }
+                    renderItem={[Function]}
+                  >
+                    <SubmenuWithLoader
+                      fetch={[Function]}
+                      header="My farms"
+                      isLoading={false}
+                      items={
+                        Immutable.List [
+                          Immutable.Map {
+                            "FarmID": 1,
+                            "farmName": "Sandor's Farm",
+                          },
+                          Immutable.Map {
+                            "FarmID": 2,
+                            "farmName": "Lorem ipsum dolor",
+                          },
+                        ]
+                      }
+                      renderItem={[Function]}
+                    >
+                      <MenuItem>
+                        <div
+                          className="item"
+                          onClick={[Function]}
+                        >
+                          <MenuHeader>
+                            <div
+                              className="header"
+                            >
+                              My farms
+                               
+                            </div>
+                          </MenuHeader>
+                          <MenuMenu>
+                            <div
+                              className="menu"
+                            >
+                              <MenuItem
+                                key="1"
+                              >
+                                <div
+                                  className="item"
+                                  onClick={[Function]}
+                                >
+                                  Sandor's Farm
+                                </div>
+                              </MenuItem>
+                              <MenuItem
+                                key="2"
+                              >
+                                <div
+                                  className="item"
+                                  onClick={[Function]}
+                                >
+                                  Lorem ipsum dolor
+                                </div>
+                              </MenuItem>
+                            </div>
+                          </MenuMenu>
+                        </div>
+                      </MenuItem>
+                    </SubmenuWithLoader>
+                  </renderComponent(SubmenuWithLoader)>
+                </branch(Sink)>
+              </lifecycle(branch(Sink))>
+            </Connect(lifecycle(branch(Sink)))>
+            <Connect(lifecycle(UserMenu))>
+              <lifecycle(UserMenu)
+                fetchUser={[Function]}
+                isLoading={false}
+                onLogoutClicked={[Function]}
+                user={
+                  Immutable.Map {
+                    "givenName": "Sandor",
+                    "surName": "Kocsis",
+                  }
+                }
+              >
+                <UserMenu
+                  fetchUser={[Function]}
+                  isLoading={false}
+                  onLogoutClicked={[Function]}
+                  user={
+                    Immutable.Map {
+                      "givenName": "Sandor",
+                      "surName": "Kocsis",
+                    }
+                  }
+                >
+                  <MenuItem>
+                    <div
+                      className="item"
+                      onClick={[Function]}
+                    >
+                      <MenuHeader>
+                        <div
+                          className="header"
+                        >
+                          Sandor Kocsis
+                           
+                        </div>
+                      </MenuHeader>
+                      <MenuMenu>
+                        <div
+                          className="menu"
+                        >
+                          <MenuItem
+                            onClick={[Function]}
+                          >
+                            <a
+                              className="item"
+                              onClick={[Function]}
+                            >
+                              Log out
+                            </a>
+                          </MenuItem>
+                        </div>
+                      </MenuMenu>
+                    </div>
+                  </MenuItem>
+                </UserMenu>
+              </lifecycle(UserMenu)>
+            </Connect(lifecycle(UserMenu))>
+          </div>
+        </Menu>
+      </MainNavigation>
+    </Router>
+  </StaticRouter>
+</Provider>
+`;

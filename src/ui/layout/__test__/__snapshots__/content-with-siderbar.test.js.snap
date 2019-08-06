@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The content with sidebar component renders its children 1`] = `
+<ContentWithSidebar
+  content={[Function]}
+  sidebar={[Function]}
+>
+  <Grid
+    columns={2}
+    stackable={true}
+  >
+    <div
+      className="ui stackable two column grid"
+    >
+      <GridColumn
+        computer={3}
+        tablet={5}
+      >
+        <div
+          className="three wide computer five wide tablet column"
+        >
+          <div
+            className="sidebar"
+          >
+            Sidebar
+          </div>
+        </div>
+      </GridColumn>
+      <GridColumn
+        computer={13}
+        tablet={11}
+      >
+        <div
+          className="thirteen wide computer eleven wide tablet column"
+        >
+          <div
+            className="content"
+          >
+            Content
+          </div>
+        </div>
+      </GridColumn>
+    </div>
+  </Grid>
+</ContentWithSidebar>
+`;
