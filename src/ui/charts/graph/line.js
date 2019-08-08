@@ -67,7 +67,7 @@ class LineGraph extends React.Component {
   /**
    * Get line style
    * @memberOf LineGraph
-   * @param {Immutable.map} lineData
+   * @param {Immutable.map.test.js} lineData
    * @return {Object}
    */
   getLineStyle (lineData) {

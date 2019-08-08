@@ -21,3 +21,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+report.*
+
+.idea
+node_modules
+jest_coverage
+.snapguidist
+dist
+ftp.js
+scsslint_tmp

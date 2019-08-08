@@ -6,14 +6,10 @@ import { fromJS } from "immutable";
 import { Map, TileLayer, Marker, Tooltip } from "react-leaflet";
 import MarkerClusterGroup from "react-leaflet-markercluster";
 import styled from "styled-components";
-import leaflet from "leaflet";
-import markerCluster from "react-leaflet-markercluster";
+import "leaflet/dist/leaflet.css";
+import "react-leaflet-markercluster/dist/styles.min.css";
 
 import { rem } from "../../style/whitespace";
-
-console.log("leaflet: ", leaflet);
-console.log("markerCluster: ", markerCluster);
-
 
 /**
  * Tile URL
